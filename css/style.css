@@ -273,7 +273,7 @@ body{
 /* Footer */
  
 #footer #footerTop{
-    background: #727CB6;
+    background: #8994c7;
     padding: 10px 0;
 }
 #footer ul {
@@ -282,12 +282,12 @@ body{
 #footer ul li{
     margin: 5px 0;
     font-size: 0.94rem;
+    letter-spacing: 1px;
 }
 #footer ul li:first-child{
     margin: 30px 0;
     font-weight: bold;
     font-size: 1.2rem;
-    letter-spacing: 2px;
     border-bottom: 1px solid #fff;
     padding: 9px 0;
 }
@@ -313,16 +313,12 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    
-}
-.logo{
-    color: white;
-    letter-spacing: 4px;
+    color: #fff;
 }
 .logo h1{
-    font-weight: bold;
-    
+    font-weight: lighter;
     margin-bottom: 0px;
+    letter-spacing: 2px;
 }
 .nav-links{
     display: flex;
@@ -354,13 +350,16 @@ nav{
     body{
         overflow-x: hidden;
     }
+    .logo h1{
+        font-weight: normal;
+    }
     .nav-links{
         position: absolute;
         right: 0px;
         height: 40vh;
         top:16vh;
         background: #727CB6;
-        width: 30%;
+        width: 40%;
         padding: 0px;
         display: flex;
         flex-direction: column;
@@ -389,9 +388,18 @@ nav{
         font-weight: normal;
       }
       .top p{
-         display: none;
-          
+         display: none;  
       }
+      #footer ul li:first-child{
+       font-weight: initial;
+       margin: 12px 0;
+       padding: 5px 0
+    }
+    #footer #footerBottom{
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        color:white;
+    }
 }
 .nav-active{
     transform: translate(0%);
