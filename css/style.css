@@ -426,3 +426,35 @@ nav{
 .toggle .Line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+/* About Us */
+.about{
+    color: #333;
+}
+/* contact Us */
+.contact{
+    color: #333;
+}
+
+.contact #contactRight a{
+    margin: 5px;
+}
+
+.contact #contactRight a .fa-facebook-square{
+  color: #4267B2;   
+}
+
+.contact #contactRight a .fa-twitter-square{
+  color: #1DA1F2;   
+}
+
+.contact #contactRight a .fa-instagram-square{
+  color: #C13584;   
+}
+
+.contact #contactRight a .fa-youtube{
+  color: #FF0000;  
+}
+/* portfolio */
+.portfolio{
+    color: #333;
+}

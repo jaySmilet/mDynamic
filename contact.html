@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mDynamic:: Lorem ipsum dolor sit amet.</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-top">
+      <div class="container m-auto">
+        <div class="row">
+          <div class="hidden-xs col">
+            <span><i class="fas fa-phone-alt"> </i>&nbsp;&nbsp;Phone: 6388232984</span>
+            <span class="hidden-sm"><i class="fa fa-envelope"> </i>&nbsp;&nbsp;Email: mdynamic@gmail.com</span>
+          </div>
+          <div class="col social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="navic">
+    <nav>
+      <div class="logo">
+        <h1>mDynamic</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+      <div class="burger">
+        <div class="Line1"></div>
+        <div class="Line2"></div>
+        <div class="Line3"></div>
+      </div>
+    </nav>
+  </div>
+  <div class="container-fluid content">
+    <div class="container contact my-5">
+        <div class="row">
+            <div class="col-md-6" id="contactLeft">
+              <div class="">
+                <h4>LEAVE COMMENT</h4>
+                <form class="form-group needs-validation p-3" novalidate>
+                  <div class="row py-2">
+                    <div class="col">
+                      <label for="name">Name*</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="col">
+                      <label for="mobile">Mobile*</label>
+                      <input type="text" class="form-control" name="mobile" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                  </div>
+                  <div class="row py-2">
+                    <div class="col">
+                      <label for="email">Email*</label>
+                      <input type="text" class="form-control" id="email" name="email" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="col">
+                      <label for="subject">Subject*</label>
+                      <input type="text" class="form-control" name="subject" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                  </div>
+                  <div class="form-group py-2">
+                    <label for="message">Message*</label>
+                    <textarea type="text" class="form-control" id="message" rows="10" cols="50" required></textarea>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                  </div>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+                <script>
+                  // Disable form submissions if there are invalid fields
+                  (function () {
+                    'use strict';
+                    window.addEventListener('load', function () {
+                      // Get the forms we want to add validation styles to
+                      var forms = document.getElementsByClassName('needs-validation');
+                      // Loop over them and prevent submission
+                      var validation = Array.prototype.filter.call(forms, function (form) {
+                        form.addEventListener('submit', function (event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      });
+                    }, false);
+                  })();
+                </script>
+              </div>
+            </div>
+            <div class="col-md-6" id="contactRight">
+              <div class="row">
+                <div class="col">
+                  <h4 class="mb-5">CONTACT INFO</h4>
+                  <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adip, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip ex ea commodo consequat.</p>
+                  <div class="my-3">
+                    <p><i class="fa fa-map-marker"> <strong>Address</strong>  </i> <span> :Jay Prakash Nagar, Maharjganj</span></p>
+                    <p><i class="fa fa-mobile-alt"> <strong>Phone</strong>  </i> :(+91) 6388232984</p>
+                    <p><i class="fa fa-envelope"> <strong>Email</strong>  </i> :mDynamic@gmail.com</p>
+                    <p><i class="fa fa-globe"> <strong>Web</strong>  </i> :www.mDynamic.in</p>
+                  </div>
+                  <div class="my-5">
+                    <h4>CONNECT US ON</h4>
+                    <p class="my-3">
+                      <a href="https://www.facebook.om/founder"><i class="fab fa-facebook-square fa-2x"></i></a>
+                      <a href="https://www.facebook.cm/founder"><i class="fab fa-twitter-square fa-2x"></i></a>
+                      <a href="https://www.facebook.cm/founder"><i class="fab fa-instagram-square fa-2x"></i></a>
+                      <a href="https://www.facebook.cm/founder"><i class="fab fa-youtube fa-2x"></i></a>
+                    </p>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div id="footer">
+      <div id="footerTop">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3">
+  
+              <ul>
+                <li>Company</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Portfolio</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <ul>
+                <li>Accounting</li>
+                <li><a href="#">Auditing</a></li>
+                <li><a href="#">Bookkeeping</a></li>
+                <li><a href="#">GST Return</a></li>
+                <li><a href="#">Sales Tax</a></li>
+                <li><a href="#">Finance</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <ul>
+                <li>Web Development</li>
+                <li><a href="#">Responsive Website</a></li>
+                <li><a href="#">Creative Website</a></li>
+                <li><a href="#">Business Site</a></li>
+                <li><a href="#">College Website</a></li>
+                <li><a href="#">E-Commerce Website</a></li>
+              </ul>
+  
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <ul>
+                <li>Digital Marketing</li>
+                <li><a href="#">Search Engine Optimization</a></li>
+                <li><a href="#">Social Media Marketing</a></li>
+                <li><a href="#">Google Adsense</a></li>
+                <li><a href="#">Affiliate Marketing</a></li>
+                <li> <a href="#">Pay Per Click</a></li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="" id="footerBottom">
+
+        Copyright &copy; mDynamic 2019-21 || All Rights Reserved
+      </div>
+    </div>
+  </div>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
