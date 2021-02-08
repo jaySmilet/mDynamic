@@ -335,6 +335,35 @@ nav{
     letter-spacing: 2px;
     font-weight: lighter;
     text-transform: uppercase;
+    position: relative;
+}
+.nav-links a::before{
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.5s;
+}
+.nav-links a:hover::before{
+    width: 70%;
+    background-color: #fff;
+}
+.nav-links a::after{
+    position: absolute;
+    content: "";
+    top: -40%;
+    right: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.5s;
+}
+.nav-links a:hover::after{
+    width: 70%;
+    background-color: #fff;
 }
 .burger{
     display: none;
@@ -434,7 +463,6 @@ nav{
 .contact{
     color: #333;
 }
-
 .contact #contactRight a{
     margin: 5px;
 }
