@@ -340,7 +340,7 @@ nav{
 .nav-links a::before{
     position: absolute;
     content: "";
-    top: 100%;
+    bottom: -40%;
     left: 0;
     width: 0%;
     height: 3px;
